@@ -1,0 +1,24 @@
+{
+  "name": "truncating-stream",
+  "version": "0.0.0",
+  "description": "Transform stream that truncates",
+  "main": "trunc.js",
+  "scripts": {
+    "test": "NODE_DEBUG=trunc node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/truncating-stream"
+  },
+  "keywords": [
+    "truncate",
+    "transform",
+    "streams2",
+    "stream"
+  ],
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/isaacs/truncating-stream/issues"
+  }
+}
