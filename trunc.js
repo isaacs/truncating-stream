@@ -29,8 +29,9 @@ Trunc . prototype . _transform = function (chunk, encoding, cb) {
     this . _seen += len
     debug ('_tx pushing %d', len)
     this . push (chunk)
-    if (this . _seen >= this . _limit)
-      this . push (null)
+    if (this . _seen >= this . _limit) {
+      this . end ()
+    }
   }
   cb()
 }
